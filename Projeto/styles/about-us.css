@@ -1,0 +1,14 @@
+/*About us*/
+.about-us{
+    padding: 50px;
+    background-color: #BDBDBD;
+}
+
+.about-us h2{
+    font-size: 45px;
+}
+
+.about-us p{
+    margin-top: 10px;
+    font-size: 25px;
+}

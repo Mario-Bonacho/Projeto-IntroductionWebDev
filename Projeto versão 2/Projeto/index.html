@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">GEAR<span>UP</span></h1>
+        <div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Início</a>
+                        <a href="">Carros</a>
+                        <a href="services.html">Serviços</a>
+                        <a href="about-us.html">Sobre nós</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <button>Fale connosco</button>
+    </header>
+    <main>
+        <section class="form-car">
+            <!-- Formulário para interagir com o cliente-->
+            <form action="/search" method="post" class="car-search-form">
+                <h2>Encontra o carro perfeito para ti</h2>
+                <div>
+                    <label for="vehicle-type" placeholder="Tipo de veiculo"></label>
+                    <select id="vehicle-type" name="vehicle-type">
+                        <option value="car">Carro</option>
+                        <option value="suv">SUV</option>
+                        <option value="truck">Carrinha</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="brand"></label>
+                    <select id="brand-type" name="brand-type">
+                        <option value="BMW">Bmw</option>
+                        <option value="Mercedes">Mercedes</option>
+                        <option value="Audi">Audi</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="model"></label>
+                    <input type="text" id="model" name="model" placeholder="Modelo">
+                </div>
+                <div>
+                    <label for="sub-model"></label>
+                    <input type="text" id="sub-model" name="sub-model" placeholder="Sub-Modelo">
+                </div>
+                <div class="form-group">
+                    <label for="max-kilometers"></label>
+                    <input type="number" id="max-kilometers" name="max-kilometers" placeholder="Maximo kilometros">
+                    <label for="max-price"></label>
+                    <input type="number" id="max-price" name="max-price" placeholder="Preço máximo">
+                </div>
+                <div class="form-group">
+                    <label for="start-year"></label>
+                    <input type="number" id="start-year" name="start-year" placeholder="Ano de">
+                    <label for="end-year"></label>
+                    <input type="number" id="end-year" name="end-year" placeholder="Ano até">
+                </div>
+                <div>
+                    <label for="fuel"></label>
+                    <select id="fuel" name="fuel">
+                        <option value="gasoline">Gasolina</option>
+                        <option value="diesel">Diesel</option>
+                        <option value="electric">Elétrico</option>
+                    </select>
+                </div>
+                <button type="submit">Pesquisar</button>
+            </form>
+        </section>
+        <section class="top-car">
+            <h2>Carros em destaque : Descubra o Seu Novo Veículo!</h2>
+            <p id="p-topcar">Descubra os nossos destaques em automóveis usados. Encontre ofertas imperdíveis em uma
+                seleção cuidadosa de veículos de qualidade. Desde carros compactos a SUVs espaçosos, temos algo para
+                todos os gostos. Explore agora e encontre o carro dos seus sonhos a um preço incrível!</p>
+            <article id="advertisement-car">
+                <div class="car-box">
+                    <img src="images/destauqe.png" alt="">
+                    <h4>Bmw E36 316i</h4>
+                    <p>2019
+                        232 711 km
+                        Diesel
+                        130 cv</p>
+                    <p>Preço: <b>5 230 EUR</b> </p>
+                    <button class="card-bnt">Contactar</button>
+                </div>
+
+                <div class="car-box">
+                    <img src="images/mercedes-card.png" alt="">
+                    <h4>Mercedes-Benz C 43 AMG</h4>
+                    <p>2018
+                        232 711 km
+                        Diesel
+                        390 cv cv</p>
+                    <p>Preço: <b>5 230 EUR</b> </p>
+                    <button class="card-bnt">Contactar</button>
+                </div>
+
+                <div class="car-box">
+                    <img src="images/audi-card.png" alt="">
+                    <h4>Audi A3 Sportback</h4>
+                    <p>2019
+                        232 711 km
+                        Diesel
+                        130 cv</p>
+                    <p>Preço: <b>5 230 EUR</b> </p>
+                    <button class="card-bnt">Contactar</button>
+                </div>
+
+                <div class="car-box">
+                    <img src="images/rangerover-card.png" alt="">
+                    <h4>Range Rover Evoque 1.5</h4>
+                    <p>2019
+                        232 711 km
+                        Diesel
+                        130 cv</p>
+                    <p>Preço: <b>5 230 EUR</b> </p>
+                    <button class="card-bnt">Contactar</button>
+                </div>
+
+                <div class="car-box">
+                    <img src="images/ford-card.png" alt="">
+                    <h4>Ford Focus 2.3 EcoBoost RS</h4>
+                    <p>2019
+                        232 711 km
+                        Diesel
+                        130 cv</p>
+                    <p>Preço: <b>5 230 EUR</b> </p>
+                    <button class="card-bnt">Contactar</button>
+                </div>
+            </article>
+        </section>
+        <section class="services">
+            <h2>Serviços</h2>
+            <p>Bem-vindo ao nosso Stand Automóvel!
+
+                Explore uma vasta seleção de veículos de qualidade e encontre o carro dos seus sonhos com facilidade. No
+                nosso site, oferecemos uma série de serviços projetados para tornar a sua experiência de compra de
+                automóveis simples, transparente e conveniente.
+
+                Descubra o Nosso Inventário Online:
+                Navegue pelo nosso extenso inventário de automóveis, onde poderá encontrar uma variedade de marcas e
+                modelos para atender às suas necessidades. Explore detalhes como marca, modelo, ano, preço e imagens
+                para ajudá-lo a tomar uma decisão informada.
+
+                Agende o seu Test Drive:
+                Experimente a sensação de dirigir o seu próximo carro antes mesmo de visitar o nosso stand. Agende
+                facilmente um test drive online e descubra como é conduzir o carro dos seus sonhos.
+
+                Simulação de Financiamento Personalizada:
+                Está a considerar opções de financiamento? Utilize a nossa ferramenta de simulação de financiamento para
+                calcular as suas prestações mensais de forma rápida e fácil. Insira os detalhes necessários e obtenha
+                uma estimativa personalizada em apenas alguns cliques.
+
+                Avaliação do seu Veículo Usado:
+                Está a pensar em trocar o seu carro atual? Solicite uma avaliação online do seu veículo usado e descubra
+                o seu valor de troca. Faremos uma avaliação justa e transparente para ajudá-lo a dar o próximo passo.
+
+                Serviços de Manutenção e Reparo:
+                Cuide do seu carro conosco. Agende serviços de manutenção e reparo diretamente pelo nosso site. Escolha
+                uma data e hora conveniente e deixe os nossos especialistas cuidarem do seu veículo.
+            </p>
+            <button><a href="services.html">Saber mais</a></button>
+        </section>
+        <section id="testimonials">
+            <div class="testimonial-heading">
+                <h2>Avaliações dos Clientes</h2>
+                <p>Bem-vindo à nossa secção de Avaliações dos Clientes! Aqui, partilhamos as experiências reais dos
+                    nossos clientes. As suas opiniões são fundamentais para nós, ajudando-nos a melhorar continuamente.
+                    Explore o que os nossos clientes têm a dizer e junte-se a nós nesta viagem de qualidade e confiança.
+                    Estamos ansiosos para ouvir também a sua opinião!</p>
+            </div>
+            <div class="testimonial-box-container">
+                <div class="testimonial-box">
+                    <div class="box-top">
+                        <div class="profile">
+                            <div class="profile-img">
+                                <img src="images/c-1.jpg" />
+                            </div>
+                            <div class="name-user">
+                                <strong>Tiago Paiva</strong>
+                                <span>@tiagopaiva</span>
+                            </div>
+                        </div>
+                        <div class="reviews">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="client-comment">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis?
+                            Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum
+                            aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+                    </div>
+                </div>
+                <div class="testimonial-box">
+                    <div class="box-top">
+                        <div class="profile">
+                            <div class="profile-img">
+                                <img src="images/c-2.jpg" />
+                            </div>
+                            <div class="name-user">
+                                <strong>Tiago Paiva</strong>
+                                <span>@tiagopaiva</span>
+                            </div>
+                        </div>
+                        <div class="reviews">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="client-comment">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis?
+                            Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum
+                            aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+                    </div>
+                </div>
+                <div class="testimonial-box">
+                    <div class="box-top">
+                        <div class="profile">
+                            <div class="profile-img">
+                                <img src="images/c-3.jpg" />
+                            </div>
+                            <div class="name-user">
+                                <strong>Tiago Paiva</strong>
+                                <span>@tiagopaiva</span>
+                            </div>
+                        </div>
+                        <div class="reviews">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="client-comment">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis?
+                            Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum
+                            aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+                    </div>
+                </div>
+                <div class="testimonial-box">
+                    <div class="box-top">
+                        <div class="profile">
+                            <div class="profile-img">
+                                <img src="images/c-4.jpg" />
+                            </div>
+                            <div class="name-user">
+                                <strong>Tiago Paiva</strong>
+                                <span>@tiagopaiva</span>
+                            </div>
+                        </div>
+                        <div class="reviews">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="client-comment">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis?
+                            Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum
+                            aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <p>Somos um stand de automóveis dedicado a oferecer uma vasta seleção de veículos de qualidade.
+                    Visite-nos hoje mesmo e encontre o carro dos seus sonhos!</p>
+            </div>
+            <div class="footer-section contact">
+                <h2>Entre em Contato</h2>
+                <p>Endereço: Rua das Estradas, 123</p>
+                <p>Telefone: (XX) XXXX-XXXX</p>
+                <p>Email: info@meu-stand.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 Stand de Automóveis. Todos os direitos reservados.
+        </div>
+    </footer>
+
+</body>
+
+</html>
